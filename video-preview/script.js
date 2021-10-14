@@ -1,9 +1,9 @@
 console.log("page loaded...");
 
-function playOnHover(element){
+function playOnHover(){
 let videoClip = document.getElementById("video-clip");
 
 videoClip.addEventListener('mouseover', ()=> {
-    element.play()
+    videoClip.play()
 })
 }
