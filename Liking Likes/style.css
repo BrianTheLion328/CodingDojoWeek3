@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, sans-serif
+}
+#container {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+#header {
+    background-color: black;
+    color: white;
+}
+.header-title {
+    padding: 12px;
+    font-size: 26px;
+    margin-left: 12px;
+}
+.your-feed {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 24px;
+}
+#main-body {
+    display: flex;
+}
+#left-side {
+    width: 28%;
+}
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    align-items: center;
+    width: 90%;
+}
+#user-image {
+    height: 55px;
+    width: 55px;
+    margin: 22px 2px;
+}
+.profile-link {
+    margin: 0px 5px 20px 5px;
+}
+.user-display-name {
+    margin: 0px 5px 24px 5px;
+    font-size: 22px;
+}
+#right-side {
+    width: 72%;
+}
+.user-boxes {
+    width: 100%;
+    border: 3px solid black;
+    margin-bottom: 15px;
+}
+#top-right-div {
+    display: flex;
+    flex-direction: column;
+}
+.top-half {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+}
+.like-counter,
+.likes,
+.like-buttons {
+    margin: 0px 6px;
+}
+.right-users-names {
+    font-size: 22px;
+}
+.like-buttons {
+    padding: 6px 18px;
+    color: black;
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-size: 16px;
+}
+.bottom-half {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
