@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn">Sign Out</button></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="left">
+            <div id="top-left">
+                <div class="header">
+                    <img class="imageIcon" src="images/jane-m.jpg" alt="user Jane" />
+                </div>
+                <div class="body">
+                    <h2>Jane Doe</h2>
+                    <span><img class="imageMap" src="icons/map-marker.png" alt="map marker" /></span><span class="imageMap">Seattle</span>
+                    <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of Shadows and the Internet!</p>
+                </div>
+                <div class="bottom">
+                    <img class="imageGear" src="icons/gear.png" alt="gear"/>
+                    <a class="edit-profile" href="index2.html">edit profile</a>
+                </div>
+            </div>
+            <div id="bottom-left">
+                <div class="education">
+                    <span class="education-title">Education</span>
+                </div>
+                <div class="education-info">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <p class="light">Dec 2019 - Mar 2020</p>
+                    <p>Triple black belt in Python, MERN, and C#</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div id="top-right">
+                <div class="connection-requests">
+                    <p class="connection-request-number">2</p><p>Connection Requests</p>
+                </div>
+                <div id="requestOne" class="requests">
+                    <div class=request-list>
+                        <img class="imageIcon2" src="images/todd-s.jpg" alt="Todd E" />
+                        <p class="request-name">Todd E</p>
+                    </div>
+                    <div onclick="removeTodd()" class="request-list">
+                        <img class="imageIcon2" src="icons 2/accept-circle.png" alt="check mark"/>
+                        <img class="imageIcon2" src="icons 2/close-circle.png" alt="x-mark"/>
+                    </div>
+                </div>
+                <div id="requestTwo" class="requests">
+                    <div class="request-list">
+                        <img class="imageIcon2" src="images/phil-s.jpg" alt="Phil K" />
+                        <p class="request-name">Phil K</p>
+                    </div>
+                    <div onclick="removePhil()" class="request-list">
+                        <img class="imageIcon2" src="icons 2/accept-circle.png" alt="check mark"/>
+                        <img class="imageIcon2" src="icons 2/close-circle.png" alt="x-mark"/>
+                    </div>
+                </div>
+            </div>
+            <div id=bottom-right>
+                <div class="connections">
+                    <p class="connection-number">500+</p><p>Your Connections</p>
+                </div>
+                <div class="connection-list">
+                    <img class="imageIcon2" src="images/adrien-s.jpg" alt="Adrien D" />
+                    <p class="request-name">Adrien D</p>
+                </div>
+                <div class="connection-list">
+                    <img class="imageIcon2" src="images/anne-s.jpg" alt="Anne J" />
+                    <p class="request-name">Anne J</p>
+                </div>
+                <div class="connection-list">
+                    <img class="imageIcon2" src="images/alayne-s.jpg" alt="Alayne T" />
+                    <p class="request-name">Alayne T</p>
+                </div>
+                <div class="connection-list">
+                    <img class="imageIcon2" src="images/arry-s.jpg" alt="Arry Y" />
+                    <p class="request-name">Arry Y</p>
+                </div>
+            </div>
+            <div class="view">
+                <a class="view-more" href="/profile">View More</a>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+<footer>
+
+</footer>
+</html>
